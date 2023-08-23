@@ -16,7 +16,7 @@ use App\Http\Controllers\AdminController;
 */
 
 // Backend
-ROute::get('/admin',[AdminController::class,'index']);
+Route::get('/admin',[AdminController::class,'index']);
 
 // Frontend
 Route::get('/',[HomeController::class,'index']);
